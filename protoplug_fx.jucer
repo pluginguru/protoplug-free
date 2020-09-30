@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="DVRNRz" name="protoplug_fx" projectType="audioplug" version="1.4.0"
+              bundleIdentifier="com.pac.protoplugfx" includeBinaryInAppConfig="1"
+              buildVST="1" buildAU="1" pluginName="Lua Protoplug Fx" pluginDesc="Lua Protoplug Effect"
+              pluginManufacturer="pac" pluginManufacturerCode="_PAC" pluginCode="ppgf"
+              pluginChannelConfigs="{2, 2}" pluginIsSynth="0" pluginWantsMidiIn="1"
+              pluginProducesMidiOut="1" pluginSilenceInIsSilenceOut="0" pluginEditorRequiresKeys="1"
+              pluginAUExportPrefix="protoplug_fxAU" pluginRTASCategory="" aaxIdentifier="com.yourcompany.protoplug_fx"
+              pluginAAXCategory="2" companyName="osar.fr" buildVST3="0" buildRTAS="0"
+              buildAAX="0" pluginFormats="buildVST,buildAU" pluginCharacteristicsValue="pluginWantsMidiIn,pluginProducesMidiOut,pluginEditorRequiresKeys"
+              jucerFormatVersion="1">
+  <MAINGROUP id="urQWd4" name="protoplug_fx">
+    <GROUP id="{E052F243-B140-83A2-E9B7-88B7E47DB2FF}" name="exports">
+      <FILE id="lNIxEi" name="pAudioFormatReader.h" compile="0" resource="0"
+            file="Source/exports/pAudioFormatReader.h"/>
+      <FILE id="nH5T4m" name="pColourGradient.h" compile="0" resource="0"
+            file="Source/exports/pColourGradient.h"/>
+      <FILE id="ECRtY2" name="pComponent.h" compile="0" resource="0" file="Source/exports/pComponent.h"/>
+      <FILE id="U02MaE" name="pFillType.h" compile="0" resource="0" file="Source/exports/pFillType.h"/>
+      <FILE id="ppxQLv" name="pFont.h" compile="0" resource="0" file="Source/exports/pFont.h"/>
+      <FILE id="iMYcU4" name="pGraphics.h" compile="0" resource="0" file="Source/exports/pGraphics.h"/>
+      <FILE id="E8b8lw" name="pImage.h" compile="0" resource="0" file="Source/exports/pImage.h"/>
+      <FILE id="vz2Ctq" name="pImageFileFormat.h" compile="0" resource="0"
+            file="Source/exports/pImageFileFormat.h"/>
+      <FILE id="FT4XAT" name="pLagrangeInterpolator.h" compile="0" resource="0"
+            file="Source/exports/pLagrangeInterpolator.h"/>
+      <FILE id="gSkLQO" name="pMidiBuffer.h" compile="0" resource="0" file="Source/exports/pMidiBuffer.h"/>
+      <FILE id="SgKGkb" name="pPath.h" compile="0" resource="0" file="Source/exports/pPath.h"/>
+      <FILE id="smFB2t" name="typedefs.h" compile="0" resource="0" file="Source/exports/typedefs.h"/>
+    </GROUP>
+    <GROUP id="{9E6FE4DE-738C-13D2-E1D3-50B567F06814}" name="guiclasses">
+      <FILE id="jnBwXp" name="AboutBox.h" compile="0" resource="0" file="Source/guiclasses/AboutBox.h"/>
+      <FILE id="TowW0K" name="BottomPane.cpp" compile="1" resource="0" file="Source/guiclasses/BottomPane.cpp"/>
+      <FILE id="PeyiKB" name="BottomPane.h" compile="0" resource="0" file="Source/guiclasses/BottomPane.h"/>
+      <FILE id="vtlOuS" name="CustomGuiPanel.cpp" compile="1" resource="0"
+            file="Source/guiclasses/CustomGuiPanel.cpp"/>
+      <FILE id="TjAmEm" name="CustomGuiPanel.h" compile="0" resource="0"
+            file="Source/guiclasses/CustomGuiPanel.h"/>
+      <FILE id="jjk1vS" name="DarkSplitter.h" compile="0" resource="0" file="Source/guiclasses/DarkSplitter.h"/>
+      <FILE id="ti9D9T" name="Dockable.cpp" compile="1" resource="0" file="Source/guiclasses/Dockable.cpp"/>
+      <FILE id="SlKHOY" name="Dockable.h" compile="0" resource="0" file="Source/guiclasses/Dockable.h"/>
+      <FILE id="KracUg" name="LuaEditor.h" compile="0" resource="0" file="Source/guiclasses/LuaEditor.h"/>
+      <FILE id="CJLeHw" name="ParameterPanel.h" compile="0" resource="0"
+            file="Source/guiclasses/ParameterPanel.h"/>
+      <FILE id="ZWUh1j" name="ProtoPopout.h" compile="0" resource="0" file="Source/guiclasses/ProtoPopout.h"/>
+      <FILE id="tVmREL" name="ProtoTabButton.h" compile="0" resource="0"
+            file="Source/guiclasses/ProtoTabButton.h"/>
+      <FILE id="tu5cIU" name="ProtoWindow.cpp" compile="1" resource="0" file="Source/guiclasses/ProtoWindow.cpp"/>
+      <FILE id="IZUPmx" name="ProtoWindow.h" compile="0" resource="0" file="Source/guiclasses/ProtoWindow.h"/>
+    </GROUP>
+    <GROUP id="{48722F2E-CC23-82FE-DA60-73AB8D15DC13}" name="res">
+      <FILE id="XvTwIW" name="lua-16.png" compile="0" resource="1" file="Source/res/lua-16.png"/>
+      <FILE id="ExIt1U" name="lua-32.png" compile="0" resource="1" file="Source/res/lua-32.png"/>
+    </GROUP>
+    <FILE id="gglkem" name="LuaCodeTokeniser.cpp" compile="1" resource="0"
+          file="Source/LuaCodeTokeniser.cpp"/>
+    <FILE id="JwTdY6" name="LuaCodeTokeniser.h" compile="0" resource="0"
+          file="Source/LuaCodeTokeniser.h"/>
+    <FILE id="BbBv24" name="LuaLink.cpp" compile="1" resource="0" file="Source/LuaLink.cpp"/>
+    <FILE id="yvkeqq" name="LuaLink.h" compile="0" resource="0" file="Source/LuaLink.h"/>
+    <FILE id="k1ndlX" name="LuaState.cpp" compile="1" resource="0" file="Source/LuaState.cpp"/>
+    <FILE id="bOXN0C" name="LuaState.h" compile="0" resource="0" file="Source/LuaState.h"/>
+    <FILE id="BzAjec" name="PluginEditor.cpp" compile="1" resource="0"
+          file="Source/PluginEditor.cpp"/>
+    <FILE id="CCNcqY" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+    <FILE id="i0fcDr" name="PluginProcessor.cpp" compile="1" resource="0"
+          file="Source/PluginProcessor.cpp"/>
+    <FILE id="ZfXCzK" name="PluginProcessor.h" compile="0" resource="0"
+          file="Source/PluginProcessor.h"/>
+    <FILE id="KeATZ1" name="ProtoplugDir.cpp" compile="1" resource="0"
+          file="Source/ProtoplugDir.cpp"/>
+    <FILE id="c2v7nV" name="ProtoplugDir.h" compile="0" resource="0" file="Source/ProtoplugDir.h"/>
+    <FILE id="bmkuIW" name="ProtoplugExports.h" compile="0" resource="0"
+          file="Source/ProtoplugExports.h"/>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" vstFolder="../../Frameworks/vstsdk2.4_minimal"
+               smallIcon="RGjrG7" bigIcon="hZT9Xv">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Release" osxSDK="10.5 SDK" isDebug="0" optimisation="3"
+                       targetName="Lua Protoplug Fx" binaryPath="../../Bin/mac"/>
+        <CONFIGURATION name="Debug" osxSDK="10.5 SDK" isDebug="1" optimisation="1" targetName="Lua Protoplug Fx"
+                       binaryPath="../../Bin/mac"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_gui_extra" path="../../Frameworks/JuceModules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../Frameworks/JuceModules"/>
+        <MODULEPATH id="juce_graphics" path="../../Frameworks/JuceModules"/>
+        <MODULEPATH id="juce_events" path="../../Frameworks/JuceModules"/>
+        <MODULEPATH id="juce_data_structures" path="../../Frameworks/JuceModules"/>
+        <MODULEPATH id="juce_core" path="../../Frameworks/JuceModules"/>
+        <MODULEPATH id="juce_audio_processors" path="../../Frameworks/JuceModules"/>
+        <MODULEPATH id="juce_audio_plugin_client" path="../../Frameworks/JuceModules"/>
+        <MODULEPATH id="juce_audio_formats" path="../../Frameworks/JuceModules"/>
+        <MODULEPATH id="juce_audio_devices" path="../../Frameworks/JuceModules"/>
+        <MODULEPATH id="juce_audio_basics" path="../../Frameworks/JuceModules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2019 targetFolder="Builds/VisualStudio2019">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_gui_extra"/>
+        <MODULEPATH id="juce_gui_basics"/>
+        <MODULEPATH id="juce_graphics"/>
+        <MODULEPATH id="juce_events"/>
+        <MODULEPATH id="juce_data_structures"/>
+        <MODULEPATH id="juce_core"/>
+        <MODULEPATH id="juce_audio_processors"/>
+        <MODULEPATH id="juce_audio_plugin_client"/>
+        <MODULEPATH id="juce_audio_formats"/>
+        <MODULEPATH id="juce_audio_devices"/>
+        <MODULEPATH id="juce_audio_basics"/>
+      </MODULEPATHS>
+    </VS2019>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_devices" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_plugin_client" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_processors" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_graphics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_gui_extra" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_QUICKTIME="disabled"/>
+  <LIVE_SETTINGS>
+    <WINDOWS/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>
